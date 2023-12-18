@@ -10,7 +10,7 @@ privileged:
 devices:
   - /dev/net/tun
 schema:
-  version: str?
+  frp_version: str?
 arch:
   - aarch64
   - amd64
