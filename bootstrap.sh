@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bashio
+#!/usr/bin/env bashio
 build_arch=$1
 version=$(bashio::config 'frp_version')
 

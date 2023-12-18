@@ -1,6 +1,4 @@
-#!/usr/bin/with-contenv bashio
-set +u
-
+#!/usr/bin/env bashio
 CONFIG_PATH='/share/frp/frpc.ini'
 WAIT_PIDS={}
 
