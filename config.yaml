@@ -1,0 +1,19 @@
+name: "FRP Client"
+description: "You can use this tool to achieve remote access to local Home Assistant OS by port forwarding."
+version: "1.0.0"
+slug: "frp_client"
+host_network: true
+startup: services
+init: false
+privileged:
+  - NET_ADMIN
+devices:
+  - /dev/net/tun
+schema:
+  version: str?
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
