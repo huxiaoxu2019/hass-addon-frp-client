@@ -7,7 +7,7 @@ ARG FRP_VERSION
 COPY bootstrap.sh /
 COPY run.sh /
 RUN mkdir -p /share/frp
-COPY frpc.ini /share/frp
+COPY frpc.toml /share/frp
 
 RUN chmod a+x /bootstrap.sh
 RUN chmod a+x /run.sh
