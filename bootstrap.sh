@@ -1,6 +1,6 @@
 #!/usr/bin/env bashio
 build_arch=$1
-version=$(bashio::config 'frp_version')
+frp_version=$2
 
 frp_url="https://github.com/fatedier/frp/releases/download/"
 app_path="/usr/src"
@@ -29,9 +29,11 @@ function select_machine() {
 }
 
 function install() {
+    bashio::log.info "Installing frpc"
     local machine=$(select_machine)
-    local file_name="frp_${version}_linux_${machine}.tar.gz"
-    local file_url="${frp_url}v${version}/${file_name}"
+    local file_name="frp_${frp_version}_linux_${machine}.tar.gz"
+    local file_url="${frp_url}v${frp_version}/${file_name}"
+    bashio::log.info "URL ${file_url}"
     local file_dir=$(echo ${file_name} | sed 's/.tar.gz//')
 
     mkdir -p /tmp/$file_dir
