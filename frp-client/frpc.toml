@@ -3,7 +3,7 @@ serverPort = 7000
 auth.method = "token"
 auth.token = "123456789"
 
-log.to = "/share/frp/frpc.log"
+log.to = "/share/frpc.log"
 # trace, debug, info, warn, error
 log.level = "trace"
 log.maxDays = 3
