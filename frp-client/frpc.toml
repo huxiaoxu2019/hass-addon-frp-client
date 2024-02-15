@@ -21,12 +21,10 @@ webServer.password = "123456789"
 
 [[proxies]]
 name = "your_proxy_name"
-type = "http"
-customDomains = ["your_domain"]
-transport.useEncryption = true
-transport.useCompression = true
+type = "tcp"
 localPort = 8123
 localIP = "0.0.0.0"
+remotePort = 25553
 
 # [proxies.plugin]
 # type = "https2http"
