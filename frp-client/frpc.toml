@@ -20,7 +20,7 @@ webServer.user = "admin"
 webServer.password = "123456789"
 
 [[proxies]]
-name = "homeassistant"
+name = "your_name_proxy"
 type = "http"
 customDomains = ["your_domain"]
 transport.useEncryption = true

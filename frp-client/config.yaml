@@ -19,6 +19,7 @@ arch:
   - armv7
   - i386
 options:
+  nameProxy: "homeassistant"
   serverAddr: "example.com"
   serverPort: 7000
   authToken: "123456789"
@@ -27,6 +28,7 @@ options:
   webServerPassword: "123456789"
   customDomain: "example.com"
 schema:
+  nameProxy: str
   serverAddr: str
   serverPort: int
   authToken: str
