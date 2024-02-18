@@ -14,10 +14,10 @@ log.maxDays = 3
 # transport.tls.trustedCaFile = "/share/frp/fullchain.pem"
 # transport.tls.serverName = "your_server_name"
 
-webServer.addr = "0.0.0.0"
-webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "123456789"
+# webServer.addr = "0.0.0.0"
+# webServer.port = 7500
+# webServer.user = "admin"
+# webServer.password = "123456789"
 
 [[proxies]]
 name = "your_name_proxy"
