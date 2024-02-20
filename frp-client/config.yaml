@@ -26,6 +26,7 @@ options:
   webServerUser: "admin"
   webServerPassword: "123456789"
   customDomain: "example.com"
+  proxyName: "homeassistant"
 schema:
   serverAddr: str
   serverPort: int
@@ -34,3 +35,4 @@ schema:
   webServerUser: str
   webServerPassword: str
   customDomain: str
+  proxyName: str
