@@ -25,7 +25,7 @@ You can leverage this add-on to achieve remote access to local Home Assistant OS
 <br />
 <img width="600" src="https://github.com/huxiaoxu2019/hass-addon-frp-client/assets/5491423/bee156da-282a-4831-9803-8e45f4331c2c">
 
-- (Optional) Add the configurations shown as below in your `configurations.yaml` with File Editor addon
+- Add the configurations shown as below in your `configurations.yaml` with File Editor addon
 ```
 http:
   use_x_forwarded_for: true
