@@ -7,6 +7,6 @@
       "i386": "homeassistant/i386-base:3.10"
     },
     "args": {
-        "FRP_VERSION": "0.53.0"
+        "FRP_VERSION": "0.65.0"
     }
 }
